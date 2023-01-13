@@ -1,7 +1,488 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive ecommerce website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
 <body>
-	<h3>
-		Welcome To DBRG Web SITE!!
-	</h3>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">Irsa</a>
+
+    <nav class="navbar">
+        <a href="#home">خانه</a>
+        <a href="#products">محصولات</a>
+        <a href="#featured">ویژه</a>
+        <a href="#review">نظرات</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>کتاب فروشی  </span>
+                <h3>ایرساIrsa</h3>
+                <p>اتاق بدون کتاب، همچون بدن بدون روح است.
+                    سیسرون، سیاست مدار و فیلسوف رومی</p>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+            <div class="image">
+                <img src="https://zhaviz.com/wp-content/uploads/2020/12/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-%D8%B4%D9%85%D8%A7-27.jpg" class="Book" alt="">
+                <img src="images/home-text-1.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>کتاب فروشی </span>
+                <h3>ایرساIrsa</h3>
+                <p>کتاب راستگوترین، بی‌توقع‌ترین، مفیدترین و همیشگی‌ترین رفیق برای هر انسان است.
+                    مارک تواین، نویسنده و طنزپرداز امریکایی</p>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+            <div class="image">
+                <img src="https://arga-mag.com/file/img/2020/08/Book-profile-picture-38.jpg" class="Book" alt="">
+                <img src="images/home-text-2.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>کتاب فروشی </span>
+                <h3>ایرساIrsa</h3>
+                <p>کتاب، همنشینی است که تو را خسته و ملول نمی‌سازد. دوستی است که تو را فریب نمی‌دهد. و رفیقی است که به تو آزار نمی‌رساند.
+                    شکسپیر، شاعر و نویسنده انگلیسی</p>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+            <div class="image">
+                <img src="https://zhaviz.com/wp-content/uploads/2020/12/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-%D8%B4%D9%85%D8%A7-23.jpg" class="Book" alt="">
+                <img src="images/home-text-3.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>تحویل سریع</h3>
+            <p>محصول را به موقع به دست مشتری میرسانیم</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 روز تعویض</h3>
+            <p>تا 10 روز مهلت برگشت کتاب را داریم</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>پشتیبانی 24 * 7</h3>
+            <p>پیشتیبانی سایت</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> آخرین <span>محصولات</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://dkstatics-public.digikala.com/digikala-products/2eea08bbfadb54b690e26c2a368506a18de3aefe_1658914681.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" alt="">
+            <div class="content">
+                <h3>کتاب پاستیل های بنفش</h3>
+                <div class="price">53.000 <span>78.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://dkstatics-public.digikala.com/digikala-products/2d7fa11bf8e5cf88eed170fcb6583f33243e5c0e_1618656066.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" alt="">
+            <<div class="content">
+                <h3>کتاب کتابخانه نیمه شب</h3>
+                <div class="price">78.200 <span>125.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://dkstatics-public.digikala.com/digikala-products/805996.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" alt="">
+            <div class="content">
+                <h3>کتاب دختری که ماه را نوشید</h3>
+                <div class="price">64.100 <span>94.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://dkstatics-public.digikala.com/digikala-products/72c7d6cd88ddcae6c282401bbf7c46f076763179_1631041468.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" alt="">
+            <div class="content">
+                <h3>کتاب نیمه تاریک وجود</h3>
+                <div class="price">63.500 <span>108.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://dkstatics-public.digikala.com/digikala-products/5d62cd5182a93c679241a5135f4e67dcf905b996_1641820137.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" alt="">
+            <div class="content">
+                <h3>کتاب بیشعوری</h3>
+                <div class="price">46.000 <span>60.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://dkstatics-public.digikala.com/digikala-products/121575932.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" alt="">
+            <div class="content">
+                <h3>کتاب تیمارستان متروک</h3>
+                <div class="price">81.000 <span>92.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> محصولات <span>برجسته</span></h1>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/2088389.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" class="featured-image-1" alt="">
+                
+            </div>
+            <div class="big-image">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/2088389.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>کتاب خوبهای بد بدهای خوب</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>کتاب خوبهای بد بد های خوب اثر چینانی</p>
+            <div class="price">92.000 <span>132.000</span></div>
+            <a href="#" class="btn">افزودن به سبد خرید</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/edf0d287db990797b50c10b33e82f99b2d6188da_1601282531.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" class="featured-image-2" alt="">
+                
+            </div>
+            <div class="big-image">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/edf0d287db990797b50c10b33e82f99b2d6188da_1601282531.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>کتاب دختری در اتاق طبقه سوم</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>کتاب دختری در طبقه سوم اثر مری داوینگ هان</p>
+            <div class="price">72.000 <span>73.000</span></div>
+            <a href="#" class="btn">افزودن به سبد خرید</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/120791602.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" class="featured-image-3" alt="">
+                
+            </div>
+            <div class="big-image">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/120791602.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>کتاب کتابخانه ارواح</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>کتاب کتابخانه ارواح اثر ریچارد دنی</p>
+            <div class="price">63.000 <span>70.000</span></div>
+            <a href="#" class="btn">افزودن به سبد خرید</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> اهمیت بازخورد<span>مشتریان</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-V8hLjXnFwSwFVy3AHOitC7rnvm_zh8W1Q&usqp=CAU" alt="">
+            <h3>بازخورد مثبت مشتری</h3>
+            <p> اگر مشتری بازخورد مثبت ارائه کند، شرکت می‌تواند بیشتر بررسی کند و در مورد جزئیات بپرسد. این پاسخ‌ها باید برای سایر مشتریان احتمالی که از کسب‌وکار شما بازدید می‌کنند (چه فروشگاه اینترنتی و چه فروشگاه حضوری) و به خرید فکر می‌کنند، برجسته شود. این بازخورد آنها را تشویق به خرید می‌کند.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://arga-mag.com/file/img/2020/08/Book-profile-picture-4.jpg" alt="">
+            <h3>بازخورد منفی مشتری</h3>
+            <p>بازخورد منفی حتی از بازخورد مثبت نیز مهم‌تر است زیرا به فروشنده یا شرکت کمک می‌کند تا در مورد موضوع اقدام کند و اقدامات لازم را انجام دهد تا آن را تکرار نکند. به عنوان مثال، اگر شخصی یک محصولی را سفارش داده باشد و محصول خریداری شده را در شرایط آسیب دیده دریافت کند، بازخورد منفی او به شرکت این هشدار را می‌دهد که فرایند حمل و نقل آنطور که باید عملکرد مناسبی ندارد.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMn7T56XQt4WW4G2RPYiOoalOJepx6agIB8A&usqp=CAU" alt="">
+            <h3>پیشنهادات</h3>
+            <p>پیشنهادات به شرکت‌ها کمک می‌کند تا محصول را مطابق با سلیقه و ترجیحات مشتریان اصلاح کنند. نمونه معروفی از بازخورد مشتریان را می‌توان در مارول کامیکس یافت. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>خبرنامه </h3>
+        <p> در این سامانه خرید به صورت غیرحضوری است و علاقه‌مندان می‌توانند از هر نقطه کشور، کتاب‌های عرضه شده از سوی کتاب‌فروشان عضو سامانه را خریداری کنند.</p>
+        <form action="">
+            <input type="email" placeholder="ایمیل خود را وارد کنید" class="box">
+            <input type="submit" value="عضویت" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> فروشگاه ها</h3>
+            <a href="#">قائن</a>
+        </div>
+
+        <div class="box">
+            <h3>لینک سریع</h3>
+            <a href="#">خانه</a>
+            <a href="#">محصولات</a>
+            <a href="#">ویژه</a>
+            <a href="#">نظرات</a>
+        </div>
+
+        <div class="box">
+            <h3>پیوندهای اضافی</h3>
+            <a href="#">اکانت من</a>
+            <a href="#">مورد علاقه من</a>
+            <a href="#">سفارش های من</a>
+            <a href="#">اخبار جدید</a>
+        </div>
+
+        <div class="box">
+            <h3>دنبال کردن</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit">طراحی توسط <a> نت کپی </a> | کلیه حقوق محفوظ است</div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
 </body>
 </html>
